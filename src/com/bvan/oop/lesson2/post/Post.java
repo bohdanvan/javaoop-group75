@@ -1,7 +1,5 @@
 package com.bvan.oop.lesson2.post;
 
-import javafx.geometry.Pos;
-
 import java.util.ArrayList;
 
 /**
