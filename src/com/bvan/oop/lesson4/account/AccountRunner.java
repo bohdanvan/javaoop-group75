@@ -9,7 +9,7 @@ public class AccountRunner {
         Product macBook = new Product("MacBook", 2000);
 //        FakeAccount account = new FakeAccount(10000);
 
-        User vasya = new User("Vasya", new VisaAccount());
+        User vasya = new User("Vasya", new VisaAccount("a"));
         vasya.payForProduct(macBook);
     }
 }
